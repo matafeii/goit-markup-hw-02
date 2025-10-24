@@ -1,34 +1,112 @@
-
+/* ===================== Base styles ===================== */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
-}
-
-/* =============== Header =============== */
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #2e2f42;
-    text-decoration: none;
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
     margin: 0;
 }
 
-.menu a {
+/* ===================== Logo ===================== */
+.logo,
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     text-decoration: none;
+}
+
+.logo-span,
+.footer-logo-span {
     color: #2e2f42;
 }
 
-.menu a:hover,
-.menu a:focus {
-    color: #404bbf;
+/* ===================== Navigation ===================== */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
+nav a {
+    text-decoration: none;
+    color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+/* ===================== Hero section ===================== */
+.hero {
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    color: #2e2f42;
+}
+
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    border: none;
+    cursor: pointer;
+}
+
+/* ===================== Sections ===================== */
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2e2f42;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* ===================== Team section ===================== */
+.team ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ===================== Footer ===================== */
+.footer {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+    text-align: left;
+}
+
+.footer-logo {
+    color: #4d5ae5;
+}
+
+.footer-logo-span {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* ===================== Utility classes ===================== */
 .visually-hidden {
     position: absolute;
     width: 1px;
