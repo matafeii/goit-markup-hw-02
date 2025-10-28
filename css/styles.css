@@ -84,13 +84,14 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    border: none;
+    letter-spacing: 0.04em; 
+    color: #ffffff;  
+    border: none; 
     cursor: pointer;
+   
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #404BBF;
 }
