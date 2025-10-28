@@ -26,7 +26,6 @@ body {
 /* #region-nav */
 .nav-list {
     list-style: none;
-    
 }
 
 .nav-link {
@@ -43,14 +42,13 @@ body {
     color: #404bbf;
 }
 
-/* #reion-contacts */
+/* #region-contacts */
 .contacts {
     font-style: normal;
 }
 
 .contacts-list {
     list-style: none;
-   
 }
 
 .contact-link {
@@ -65,7 +63,8 @@ body {
 .contact-link:focus {
     color: #404bbf;
 }
-/* #region-mein */
+
+/* #region-main */
 .hero-section {
     background-color: #2e2f42;
 }
@@ -79,30 +78,27 @@ body {
 }
 
 .hero-btn {
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em; 
-    color: #ffffff;  
-    border: none; 
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border: none;
     cursor: pointer;
-   
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
-/* #region-str */
-.features {
-}
+/* #region-features */
+.features {}
 
 .features-list {
     list-style: none;
-   
 }
 
 .feature-title {
@@ -120,13 +116,13 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     margin: 0 0 1.5em 0;
-   
 }
 
 /* #region-ourteam */
 .ourteam {
-    background-color: #F4F4FD
+    background-color: #f4f4fd;
 }
+
 .ourteam-hero {
     font-size: 36px;
     line-height: 1.11;
@@ -134,18 +130,14 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-
 }
 
 .ourteam-list {
-    background-color: #FFFFFF
+    background-color: #ffffff;
 }
 
-
-
 .features-alt {
-    background-color: #F4F4FD;
-
+    background-color: #f4f4fd;
 }
 
 .features-title {
@@ -164,8 +156,7 @@ body {
 }
 
 .feature-item {
-    background-color: #FFFFFF;
-    padding: 1em;
+    background-color: #ffffff;
     margin-bottom: 1em;
 }
 
@@ -187,9 +178,8 @@ body {
 }
 
 /* #region-ourportfolio */
-
 .ourportfolio {
-    background-color: #F4F4FD
+    background-color: #f4f4fd;
 }
 
 /* #region-footer */
@@ -198,8 +188,9 @@ body {
 }
 
 .footer {
-    background-color: #2e2f42   
+    background-color: #2e2f42;
 }
+
 .footer .logo-span {
     color: #f4f4fd;
 }
