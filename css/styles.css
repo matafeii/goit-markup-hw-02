@@ -145,7 +145,7 @@ body {
 
 .features-alt {
     background-color: #F4F4FD;
-    padding: 2em 0;
+
 }
 
 .features-title {
@@ -161,7 +161,6 @@ body {
 .features-list-alt {
     list-style: none;
     margin: 0;
-    padding: 0;
 }
 
 .feature-item {
@@ -199,7 +198,7 @@ body {
 }
 
 .footer {
-    background-color: #2e2f42
+    background-color: #2e2f42   
 }
 .footer .logo-span {
     color: #f4f4fd;
